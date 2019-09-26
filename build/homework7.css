@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+ul,
+ol {
+  list-style: none; }
+
+.section {
+  width: 500px;
+  height: 515px;
+  margin: 0 auto;
+  position: relative; }
+  .section__background > img {
+    width: 100%;
+    max-width: 500px;
+    height: 515px; }
+  .section__content {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 147px;
+    width: 100%;
+    bottom: 0;
+    left: 0; }
+  .section__text {
+    font-size: 1.25rem;
+    color: #fff;
+    height: 95px;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 28px;
+    line-height: 32px; }
+  .section__control {
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    align-items: center;
+    padding: 0 40px; }
+  .section__buttons {
+    display: flex;
+    width: 132px;
+    justify-content: space-between; }
+  .section__button {
+    background-color: #d8d8d8;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px; }
+  .section__arrow {
+    color: #097af7; }
+
+.active {
+  background-color: #097af7;
+  position: relative; }
+
+.active::after {
+  content: '';
+  width: 18px;
+  height: 18px;
+  border: 1px solid #097af7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%; }
+
+
+/*# sourceMappingURL=homework7.css.map*/
