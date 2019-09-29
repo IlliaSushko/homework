@@ -41,14 +41,18 @@ ol {
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
   padding: 0 150px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
+  .header__left-block {
+    display: flex; }
   .header__nav {
     margin-left: 41px; }
   .header__item {
     color: #33333a;
     font-size: 0.75rem;
     padding-right: 53px;
-    position: relative; }
+    position: relative;
+    line-height: 26px; }
   .header__item:after {
     content: '<';
     position: absolute;
@@ -65,6 +69,20 @@ ol {
     position: absolute;
     top: 50%;
     transform: translate(60%, -50%) rotate(90deg); }
+
+.login {
+  display: flex;
+  align-items: center; }
+  .login__text {
+    color: #33333a;
+    font-size: 0.75rem; }
+  .login__avatar {
+    display: flex; }
+  .login__avatar > img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 10px; }
 
 
 /*# sourceMappingURL=homework8.css.map*/

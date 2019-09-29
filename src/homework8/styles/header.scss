@@ -17,6 +17,10 @@
     padding: 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    &__left-block {
+        display: flex;
+    }
     &__nav {
         margin-left: 41px;
     }
@@ -25,6 +29,7 @@
         font-size: $smallSizeText;
         padding-right: 53px;
         position: relative;
+        line-height: 26px;
     }
     &__item:after {
         content: '<';
@@ -44,5 +49,23 @@
         position: absolute;
         top: 50%;
         transform: translate( 60%, -50%) rotate(90deg);
+    }
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    &__text {
+        color: $mainColor;
+        font-size: $smallSizeText;
+    }
+    &__avatar {
+        display: flex;
+    }
+    &__avatar>img {
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        margin-left: 10px;
     }
 }
