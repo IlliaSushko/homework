@@ -21,6 +21,9 @@
     &__left-block {
         display: flex;
     }
+    &__right-block {
+        display: flex;
+    }
     &__nav {
         margin-left: 41px;
     }
@@ -69,3 +72,18 @@
         margin-left: 10px;
     }
 }
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    margin: 0 12px 0 30px;
+    &__bar {
+        display: flex; 
+        min-width: 110px;
+        justify-content: space-between;
+    }
+    &__icon {
+        font-size: $iconSize;
+    }
+}
+

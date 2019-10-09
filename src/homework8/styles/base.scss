@@ -20,6 +20,10 @@
     padding: 0;
     margin: 0;
   }
+
+  body {
+    background: #fcfcfc;
+  }
   
   a {
     text-decoration: none;
@@ -28,4 +32,8 @@
   ul,
   ol {
     list-style: none;
+  }
+
+  .page {
+    padding: 0 120px;
   }

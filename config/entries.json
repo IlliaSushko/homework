@@ -28,5 +28,8 @@
   ],
   "homework8": [
     "./src/homework8/homework8.js"
+  ],
+  "homework9": [
+    "./src/homework9/homework9.js"
   ]
 }

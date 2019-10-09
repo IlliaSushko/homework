@@ -81,33 +81,68 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/homework8/homework8.js":
+/***/ "./src/homework9/homework9.js":
 /*!************************************!*\
-  !*** ./src/homework8/homework8.js ***!
+  !*** ./src/homework9/homework9.js ***!
   \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _homework9_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homework9.scss */ "./src/homework9/homework9.scss");
+/* harmony import */ var _homework9_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_homework9_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _traffic_lighter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./traffic_lighter.js */ "./src/homework9/traffic_lighter.js");
+/* harmony import */ var _traffic_lighter_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_traffic_lighter_js__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
 /***/ }),
 
-/***/ 9:
+/***/ "./src/homework9/homework9.scss":
+/*!**************************************!*\
+  !*** ./src/homework9/homework9.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "./src/homework9/traffic_lighter.js":
 /*!******************************************!*\
-  !*** multi ./src/homework8/homework8.js ***!
+  !*** ./src/homework9/traffic_lighter.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var trafficLighter = document.querySelector('traffic__lighter');
+
+function hello() {
+  alert('hello');
+}
+
+trafficLighter.onclick = hello;
+
+/***/ }),
+
+/***/ 10:
+/*!******************************************!*\
+  !*** multi ./src/homework9/homework9.js ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./src/homework8/homework8.js */"./src/homework8/homework8.js");
+module.exports = __webpack_require__(/*! ./src/homework9/homework9.js */"./src/homework9/homework9.js");
 
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=homework8.js.map
+//# sourceMappingURL=homework9.js.map
