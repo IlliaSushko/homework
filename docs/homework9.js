@@ -122,13 +122,43 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var trafficLighter = document.querySelector('traffic__lighter');
+var trafficLighterRed = document.querySelector('.traffic__lighter-red');
+var trafficLighterYellow = document.querySelector('.traffic__lighter-yellow');
+var trafficLighterGreen = document.querySelector('.traffic__lighter-green');
+var trafficTextStop = document.querySelector('.traffic__text-stop');
+var trafficTextReady = document.querySelector('.traffic__text-ready');
+var trafficTextGo = document.querySelector('.traffic__text-go');
 
-function hello() {
-  alert('hello');
+function showColorRed() {
+  trafficLighterRed.style.backgroundColor = 'red';
+  trafficLighterYellow.style.backgroundColor = 'white';
+  trafficLighterGreen.style.backgroundColor = 'white';
+  trafficTextStop.style.color = 'black';
+  trafficTextReady.style.color = 'white';
+  trafficTextGo.style.color = 'white';
 }
 
-trafficLighter.onclick = hello;
+function showColorYellow() {
+  trafficLighterRed.style.backgroundColor = 'white';
+  trafficLighterYellow.style.backgroundColor = 'yellow';
+  trafficLighterGreen.style.backgroundColor = 'white';
+  trafficTextStop.style.color = 'white';
+  trafficTextReady.style.color = 'black';
+  trafficTextGo.style.color = 'white';
+}
+
+function showColorGreen() {
+  trafficLighterRed.style.backgroundColor = 'white';
+  trafficLighterYellow.style.backgroundColor = 'white';
+  trafficLighterGreen.style.backgroundColor = 'green';
+  trafficTextStop.style.color = 'white';
+  trafficTextReady.style.color = 'white';
+  trafficTextGo.style.color = 'black';
+}
+
+trafficLighterRed.onclick = showColorRed;
+trafficLighterYellow.onclick = showColorYellow;
+trafficLighterGreen.onclick = showColorGreen;
 
 /***/ }),
 
